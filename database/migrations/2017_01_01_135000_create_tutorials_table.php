@@ -9,10 +9,9 @@ return new class extends Migration
     public function up()
     {
         Schema::create('tutorials', function (Blueprint $table) {
-            $table->increments('id');
+            $table->id();
 
-            $table->integer('permission_id')->unsigned()->index();
-            $table->foreign('permission_id')->references('id')->on('permissions')
+            $table->foreignId('permission_id')->constrained()->name('tutorials_permission_id_foreign')
                 ->onUpdate('cascade')->onDelete('cascade');
 
             $table->string('element');
