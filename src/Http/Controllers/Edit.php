@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Tutorials\Http\Controllers;
+namespace LaravelLiberu\Tutorials\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Tutorials\Forms\Builders\Tutorial;
-use LaravelEnso\Tutorials\Models\Tutorial as Model;
+use LaravelLiberu\Tutorials\Forms\Builders\Tutorial;
+use LaravelLiberu\Tutorials\Models\Tutorial as Model;
 
 class Edit extends Controller
 {

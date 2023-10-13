@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Tutorials\Forms\Builders;
+namespace LaravelLiberu\Tutorials\Forms\Builders;
 
-use LaravelEnso\Forms\Services\Form;
-use LaravelEnso\Tutorials\Models\Tutorial as Model;
+use LaravelLiberu\Forms\Services\Form;
+use LaravelLiberu\Tutorials\Models\Tutorial as Model;
 
 class Tutorial
 {

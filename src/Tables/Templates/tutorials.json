@@ -53,7 +53,7 @@
             "label": "Placement",
             "name": "placement",
             "data": "tutorials.placement",
-            "enum": "LaravelEnso\\Tutorials\\Enums\\Placement",
+            "enum": "LaravelLiberu\\Tutorials\\Enums\\Placement",
             "meta": [
                 "slot",
                 "filterable",

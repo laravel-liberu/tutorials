@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Tutorials\DynamicRelations;
+namespace LaravelLiberu\Tutorials\DynamicRelations;
 
 use Closure;
-use LaravelEnso\DynamicMethods\Contracts\Method;
-use LaravelEnso\Tutorials\Models\Tutorial;
+use LaravelLiberu\DynamicMethods\Contracts\Method;
+use LaravelLiberu\Tutorials\Models\Tutorial;
 
 class Tutorials implements Method
 {

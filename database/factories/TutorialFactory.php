@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Tutorials\Database\Factories;
+namespace LaravelLiberu\Tutorials\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use LaravelEnso\Permissions\Models\Permission;
-use LaravelEnso\Tutorials\Enums\Placement;
-use LaravelEnso\Tutorials\Models\Tutorial;
+use LaravelLiberu\Permissions\Models\Permission;
+use LaravelLiberu\Tutorials\Enums\Placement;
+use LaravelLiberu\Tutorials\Models\Tutorial;
 
 class TutorialFactory extends Factory
 {

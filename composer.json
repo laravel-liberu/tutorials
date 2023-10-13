@@ -30,14 +30,14 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelEnso\\Tutorials\\": "src/",
-            "LaravelEnso\\Tutorials\\Database\\Factories\\": "database/factories/"
+            "LaravelLiberu\\Tutorials\\": "src/",
+            "LaravelLiberu\\Tutorials\\Database\\Factories\\": "database/factories/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelEnso\\Tutorials\\AppServiceProvider"
+                "LaravelLiberu\\Tutorials\\AppServiceProvider"
             ],
             "aliases": {}
         }

@@ -1,15 +1,15 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\Tutorials\Http\Controllers\Create;
-use LaravelEnso\Tutorials\Http\Controllers\Destroy;
-use LaravelEnso\Tutorials\Http\Controllers\Edit;
-use LaravelEnso\Tutorials\Http\Controllers\ExportExcel;
-use LaravelEnso\Tutorials\Http\Controllers\InitTable;
-use LaravelEnso\Tutorials\Http\Controllers\Load;
-use LaravelEnso\Tutorials\Http\Controllers\Store;
-use LaravelEnso\Tutorials\Http\Controllers\TableData;
-use LaravelEnso\Tutorials\Http\Controllers\Update;
+use LaravelLiberu\Tutorials\Http\Controllers\Create;
+use LaravelLiberu\Tutorials\Http\Controllers\Destroy;
+use LaravelLiberu\Tutorials\Http\Controllers\Edit;
+use LaravelLiberu\Tutorials\Http\Controllers\ExportExcel;
+use LaravelLiberu\Tutorials\Http\Controllers\InitTable;
+use LaravelLiberu\Tutorials\Http\Controllers\Load;
+use LaravelLiberu\Tutorials\Http\Controllers\Store;
+use LaravelLiberu\Tutorials\Http\Controllers\TableData;
+use LaravelLiberu\Tutorials\Http\Controllers\Update;
 
 Route::middleware(['api', 'auth', 'core'])
     ->prefix('api/system/tutorials')

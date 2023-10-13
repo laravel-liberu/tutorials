@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Tutorials;
+namespace LaravelLiberu\Tutorials;
 
 use Illuminate\Support\ServiceProvider;
-use LaravelEnso\DynamicMethods\Services\Methods;
-use LaravelEnso\Permissions\Models\Permission;
-use LaravelEnso\Tutorials\DynamicRelations\Tutorials;
+use LaravelLiberu\DynamicMethods\Services\Methods;
+use LaravelLiberu\Permissions\Models\Permission;
+use LaravelLiberu\Tutorials\DynamicRelations\Tutorials;
 
 class AppServiceProvider extends ServiceProvider
 {

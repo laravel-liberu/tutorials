@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Tutorials\Http\Responses;
+namespace LaravelLiberu\Tutorials\Http\Responses;
 
 use Illuminate\Contracts\Support\Responsable;
 use Illuminate\Support\Collection;
-use LaravelEnso\Permissions\Models\Permission;
-use LaravelEnso\Tutorials\Http\Resources\Tutorial as Resource;
-use LaravelEnso\Tutorials\Models\Tutorial;
+use LaravelLiberu\Permissions\Models\Permission;
+use LaravelLiberu\Tutorials\Http\Resources\Tutorial as Resource;
+use LaravelLiberu\Tutorials\Models\Tutorial;
 
 class Index implements Responsable
 {

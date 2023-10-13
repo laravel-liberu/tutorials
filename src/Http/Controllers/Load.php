@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Tutorials\Http\Controllers;
+namespace LaravelLiberu\Tutorials\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Tutorials\Http\Responses\Index;
+use LaravelLiberu\Tutorials\Http\Responses\Index;
 
 class Load extends Controller
 {

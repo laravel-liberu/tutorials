@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\Tutorials\Enums;
+namespace LaravelLiberu\Tutorials\Enums;
 
-use LaravelEnso\Enums\Services\Enum;
+use LaravelLiberu\Enums\Services\Enum;
 
 class Placement extends Enum
 {

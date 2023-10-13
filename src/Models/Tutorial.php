@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Tutorials\Models;
+namespace LaravelLiberu\Tutorials\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use LaravelEnso\Permissions\Models\Permission;
-use LaravelEnso\Tables\Traits\TableCache;
+use LaravelLiberu\Permissions\Models\Permission;
+use LaravelLiberu\Tables\Traits\TableCache;
 
 class Tutorial extends Model
 {

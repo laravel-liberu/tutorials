@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Tutorials\Tables\Builders;
+namespace LaravelLiberu\Tutorials\Tables\Builders;
 
 use Illuminate\Database\Eloquent\Builder;
-use LaravelEnso\Tables\Contracts\Table;
-use LaravelEnso\Tutorials\Models\Tutorial as Model;
+use LaravelLiberu\Tables\Contracts\Table;
+use LaravelLiberu\Tutorials\Models\Tutorial as Model;
 
 class Tutorial implements Table
 {
