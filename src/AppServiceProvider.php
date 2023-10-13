@@ -19,7 +19,7 @@ class AppServiceProvider extends ServiceProvider
 
     private function load()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/tutorials.php', 'enso.tutorials');
+        $this->mergeConfigFrom(__DIR__.'/../config/tutorials.php', 'liberu.tutorials');
 
         $this->loadRoutesFrom(__DIR__.'/../routes/api.php');
 
@@ -31,11 +31,11 @@ class AppServiceProvider extends ServiceProvider
     private function publish()
     {
         $this->publishes([
-            __DIR__.'/../config' => config_path('enso'),
-        ], ['tutorials-config', 'enso-config']);
+            __DIR__.'/../config' => config_path('liberu'),
+        ], ['tutorials-config', 'liberu-config']);
 
         $this->publishes([
             __DIR__.'/../database/factories' => database_path('factories'),
-        ], ['tutorials-factory', 'enso-factories']);
+        ], ['tutorials-factory', 'liberu-factories']);
     }
 }

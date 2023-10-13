@@ -27,7 +27,7 @@ class Index implements Responsable
 
     private function homeTutorials()
     {
-        $home = Permission::whereName(config('enso.tutorials.homePermission'))->first();
+        $home = Permission::whereName(config('liberu.tutorials.homePermission'))->first();
 
         return Tutorial::wherePermissionId($home?->id)
             ->orderBy('order_index')
